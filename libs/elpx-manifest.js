@@ -139,10 +139,6 @@ window.__ELPX_MANIFEST__={
     "content/resources/Building_and_Wiring_the_DOM-7.jpg",
     "content/resources/Building_and_Wiring_the_DOM-8.jpg",
     "content/resources/Building_and_Wiring_the_DOM-9.jpg",
-    "content/resources/tarjeta memoria 1.png",
-    "content/resources/tarjeta memoria 2.png",
-    "content/resources/tarjeta memoria 3.png",
-    "content/resources/tarjeta memoria 4.png",
     "content/resources/pregunta.png",
     "libs/elpx-manifest.js"
   ],
