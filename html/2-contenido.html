@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" id="exe-page-1775678718404-z4v6tdlad">
+<html lang="es" id="exe-page-mnuipy0m-tai44oih3">
 <head>
 <meta charset="utf-8">
 <meta name="generator" content="eXeLearning v4.0.0-rc1">
@@ -15,7 +15,7 @@
 </head>
 <body class="exe-export exe-web-site">
 <script>document.body.className+=" js"</script>
-<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-1775678718404-z4v6tdlad" id="skipNav">Skip to content</a> <nav id="siteNav">
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mnuipy0m-tai44oih3" id="skipNav">Skip to content</a> <nav id="siteNav">
 <ul>
 <li class="current-page-parent"> <a href="../index.html" class="main-node daddy">La Web Accesible: Reconstrucción Dinámica</a>
 <ul class="other-section">
@@ -40,11 +40,11 @@
 </ul>
 </li>
 </ul>
-</nav><main id="page-1775678718404-z4v6tdlad" class="page"> 
+</nav><main id="page-mnuipy0m-tai44oih3" class="page"> 
 <header class="main-header">
 <div class="package-header"><p class="package-title">La Web Accesible: Reconstrucción Dinámica</p></div>
 <div class="page-header"><h1 class="page-title">2. Contenido</h1></div>
-</header><div id="page-content-page-1775678718404-z4v6tdlad" class="page-content">
+</header><div id="page-content-page-mnuipy0m-tai44oih3" class="page-content">
 <article id="block-1775735302533-l3p76fx29" class="box">
 <header class="box-head">
 <div class="box-icon exe-icon">
@@ -55,8 +55,14 @@
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-1775735302532-zondb7odd" class="idevice_node external-website" data-idevice-path="../idevices/external-website/" data-idevice-type="external-website">
-      <div id="iframeWebsiteIdevice">       <iframe src="https://www.youtube.com/embed/fcXL0tfcgqc" size="2" width="600" height="300" style="width:100%;">      </iframe>      <div class="iframe-error-message" style="display:none;">No se puede mostrar un iframe en HTTP en una web HTTPS.</div>       </div>      
+<div style="text-align:center;">
+  <iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/fcXL0tfcgqc" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+  </iframe>
 </div>
 </div>
 </article><article id="block-1775737531439-8uymhi8py" class="box">
@@ -91,8 +97,14 @@
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-1775737611712-hvl6ug9fw" class="idevice_node external-website" data-idevice-path="../idevices/external-website/" data-idevice-type="external-website">
-      <div id="iframeWebsiteIdevice">       <iframe src="https://www.youtube.com/embed/z1a0eHWn5ds" size="2" width="600" height="300" style="width:100%;">      </iframe>      <div class="iframe-error-message" style="display:none;">No se puede mostrar un iframe en HTTP en una web HTTPS.</div>       </div>      
+<div style="text-align:center;">
+  <iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/z1a0eHWn5ds" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+  </iframe>
 </div>
 </div>
 </article><article id="block-1775737655646-k6mdlvd0r" class="box">
@@ -130,7 +142,9 @@
 <div id="idevice-1775737710758-i4a2ihs17" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1775737710758-i4a2ihs17&quot;}">
 <div class="exe-text-template">
     <p>Modifica el siguiente código para que al pulsar un botón cambie el contenido de un párrafo:</p>
-<p> <br />&lt;p id="texto"&gt;Texto original&lt;/p&gt;<br />&lt;button id="btn"&gt;Cambiar texto&lt;/button&gt;</p>
+<p>&lt;!-- </p>
+<p>&lt;p id="texto"&gt;Texto original&lt;/p&gt;<br />&lt;button id="btn"&gt;Cambiar texto&lt;/button&gt;</p>
+<p>--&gt;</p>
 </div>
 </div>
 </div>
@@ -162,11 +176,17 @@
 </ul>
 <p>Ejemplo incorrecto:     texto.textContent = "Texto cambiado";<br /> <br />(si no has definido antes texto, dará error)<br />❌ <strong>Colocar el script antes del HTML</strong><br />Si el script está arriba del todo, los elementos aún no existen y no se pueden seleccionar.<br />❌ <strong>Confundir innerHTML y textContenttextContent</strong> → solo texto<br />innerHTML → permite HTML (etiquetas)<br /> <br />“Si no funciona, revisa primero los ids y el orden del script, ya que son los errores más habituales.”</p>
 <p><strong>CÓDIGO:</strong></p>
+<p>&lt;!--</p>
 <p>&lt;!DOCTYPE html&gt;<br />&lt;html&gt;<br />&lt;head&gt;<br />&lt;meta charset="UTF-8"&gt;<br />&lt;title&gt;Mini reto DOM&lt;/title&gt;<br />&lt;/head&gt;<br />&lt;body&gt;</p>
 <p>&lt;p id="texto"&gt;Texto original&lt;/p&gt;<br />&lt;button id="btn"&gt;Cambiar texto&lt;/button&gt;</p>
 <p>&lt;script&gt;<br />// Seleccionamos el botón<br />var boton = document.getElementById("btn");</p>
 <p>// Añadimos el evento click<br />boton.addEventListener("click", function() {<br />// Cambiamos el contenido del párrafo<br />document.getElementById("texto").textContent = "Texto cambiado";<br />});<br />&lt;/script&gt;</p>
 <p>&lt;/body&gt;<br />&lt;/html&gt;</p>
+<p>
+<script><br />// Seleccionamos el botón<br />var boton = document.getElementById("btn");</p>
+<p>// Añadimos el evento click<br />boton.addEventListener("click", function() {<br />// Cambiamos el contenido del párrafo<br />document.getElementById("texto").textContent = "Texto cambiado";<br />});<br /></script>
+</p>
+<p>--&gt;</p>
 </div>
 </div>
 </div>
